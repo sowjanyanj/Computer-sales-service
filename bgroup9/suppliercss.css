@@ -1,0 +1,81 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: #e3e9f7;
+    //background-image: url("img/loginbg.jpg");
+    opacity: 0.9;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.background {
+    width: 430px;
+    height: 550px;
+    position: absolute;
+    /*transform: translate(-50%,-50%);*/
+    left: 50%;
+    top: 50%
+}
+
+form {
+    height: 550px;
+    width: 348px;
+    /*background-color: rgba(255,255,255,0.1);*/
+    background-color: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 5%;
+    left: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(8,7,16,0.7);
+    padding: 50px 35px;
+}
+    form * {
+        font-family: 'Poor Richard',sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+    }
+
+input {
+    display: block;
+    height: 40px;
+    width: 95%;
+    /*background-color: rgba(255,255,255,0.07);*/ 
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.button {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00CC66;
+}
+
+#btnadd {
+    background-color: #00CC66;
+    color: Black;
+    width: 80px;
+}
+#btnsave {
+    background-color: #00CC66;
+    color: Black;
+    width: 80px;
+}
+#btnremove {
+    background-color: #00CC66;
+    color: Black;
+    width: 80px;
+}
+#btnsearch {
+    background-color: #00CC66;
+    color: Black;
+    width: 80px;
+}
+

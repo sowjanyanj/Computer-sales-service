@@ -1,0 +1,102 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: #e3e9f7;
+    background-image: url("img/loginbg.jpg");
+    opacity: 0.9;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 160px;
+    margin-right: -295px;
+}
+
+#button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-top: -500px;
+    margin-right: 900px;
+}
+
+    #button1:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+ #center{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+       
+    }
+#btnadd {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-top: -500px;
+    margin-right: 500px;
+}
+
+    #btnadd:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+#btndelete{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-top: -500px;
+    margin-right: 100px;
+}
+
+    #btndelete:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+#btnupdate {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-top: -500px;
+    margin-right: 00px;
+}
+
+    #btnupdate:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .abc{
+        margin-right:400px;
+    }

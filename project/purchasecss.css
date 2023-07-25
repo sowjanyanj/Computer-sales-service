@@ -1,0 +1,153 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: #e3e9f7;
+    background-image: url("img/loginbg.jpg");
+    opacity: 0.9;
+    height: 100% ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 160px;
+    margin-left: 340px;
+}
+
+.box2 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: -380px;
+    margin-left: 550px;
+}
+
+.box3 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: -420px;
+    margin-left: 800px;
+}
+.box4 {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: -390px;
+    margin-left: 1030px;
+}
+/*#button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-top: -55px;
+    margin-left: 165px;
+}
+
+    #button3:hover {
+        background-color: #4CAF50;
+        color: white;
+    }*/
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+#button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-top: -950px;
+    margin-left: -20px;
+}
+
+    #button1:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+#button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-left: -5px;
+}
+
+    #button2:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+#button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-top: -100px;
+    margin-left: -5px;
+}
+
+    #button3:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+#button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    height: 55px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-top: -300px;
+    margin-left: -5px;
+}
+
+    #button4:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+

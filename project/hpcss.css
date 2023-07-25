@@ -1,0 +1,90 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: #e3e9f7;
+    background-image: url("img/loginbg.jpg");
+    opacity: 0.9;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2b2626;
+}
+
+    nav ul li {
+        list-style: none;
+    }
+
+        nav ul li a {
+            display: block;
+            font-family: montserrat;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            color: #fff;
+            position: relative;
+            padding: 25px 0 25px 25px;
+        }
+
+            nav ul li a:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 0;
+                height: 100%;
+                background: #e3e9f7;
+                border-radius: 40px 0 0 40px;
+                z-index: -1;
+                transition: all 300ms ease-in-out;
+            }
+
+            nav ul li a:hover {
+                color: #2b2626;
+            }
+
+                nav ul li a:hover:before {
+                    width: 95%;
+                }
+
+.wrapper {
+    margin-left: 260px;
+}
+
+.section {
+    opacity: 0.9;
+    display: grid;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.box-area h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.box-area {
+    width: 75%;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+    .logo img {
+        width: 100%;
+    }
